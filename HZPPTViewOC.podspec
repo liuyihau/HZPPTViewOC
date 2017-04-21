@@ -1,31 +1,18 @@
-#
-# Be sure to run `pod lib lint HZPPTViewOC.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'HZPPTViewOC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HZPPTViewOC.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = '花样的轮播器'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        简单实现图片轮播器的功能的一个控件，横向和竖线，以及单独文字的横向与竖向呈现
                        DESC
 
-  s.homepage         = 'https://github.com/liuyihua2015@sina.com/HZPPTViewOC'
+  s.homepage         = 'https://github.com/liuyihau/HZPPTViewOC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liuyihua2015@sina.com' => '18551614289@139.com' }
-  s.source           = { :git => 'https://github.com/liuyihua2015@sina.com/HZPPTViewOC.git', :tag => s.version.to_s }
+  s.author           = { 'liuyihua' => 'liuyihua2015@sina.com' }
+  s.source           = { :git => 'https://github.com/liuyihau/HZPPTViewOC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

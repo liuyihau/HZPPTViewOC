@@ -1,0 +1,6 @@
+framework module Pods_HZPPTViewOC_Example {
+  umbrella header "Pods-HZPPTViewOC_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
