@@ -1,18 +1,18 @@
 {
   "name": "HZPPTViewOC",
   "version": "0.1.0",
-  "summary": "A short description of HZPPTViewOC.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liuyihua2015@sina.com/HZPPTViewOC",
+  "summary": "花样的轮播器",
+  "description": "简单实现图片轮播器的功能的一个控件，横向和竖线，以及单独文字的横向与竖向呈现",
+  "homepage": "https://github.com/liuyihau/HZPPTViewOC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "liuyihua2015@sina.com": "18551614289@139.com"
+    "liuyihua": "liuyihua2015@sina.com"
   },
   "source": {
-    "git": "https://github.com/liuyihua2015@sina.com/HZPPTViewOC.git",
+    "git": "https://github.com/liuyihau/HZPPTViewOC.git",
     "tag": "0.1.0"
   },
   "platforms": {

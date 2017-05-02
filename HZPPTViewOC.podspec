@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HZPPTViewOC'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '花样的轮播器'
 
   s.description      = <<-DESC
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HZPPTViewOC/Classes/**/*'
+  s.resource = "HZPPTViewOC/classes/HZPPTViewTextOnly/HZPPTViewTextOnlyCell.xib"
   
   # s.resource_bundles = {
   #   'HZPPTViewOC' => ['HZPPTViewOC/Assets/*.png']
