@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HZPPTViewOC'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '花样的轮播器'
 
   s.description      = <<-DESC

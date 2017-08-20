@@ -249,7 +249,7 @@
 
     if (self.timer == nil) {
         self.timer = [NSTimer scheduledTimerWithTimeInterval:self.scrollDuration target:self selector:@selector(timerHander:) userInfo:nil repeats:YES];
-        [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSDefaultRunLoopMode];
+        [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
         
         //延时触发
         [self.timer setFireDate:[NSDate dateWithTimeIntervalSinceNow:self.scrollDuration]];
